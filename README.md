@@ -20,9 +20,24 @@ Develop my own assistant via Line Bot. Update irregularly.
 - Go to "New" -> "Create New App"
 - Name the app -> "Create App" 
 ## PUSH Bot Programme to Heroku
-- Open cmd on your computer
+- Open cmd on your computer (cd to the folder you put the programme)
 - Login to your Heroku account
 ```cmd
 heroku login
 ```
-- 
+- Initialize git
+```cmd
+git config --global user.name "NAME"
+git config --global user.email E-MAIL
+git init
+```
+- Connect your folder to Heroku
+```cmd
+heroku git:remote -a HEROKU_APP_NAME
+```
+- PUSH your programme (every PUSH need to do this)
+```cmd
+git add .
+git commit -m "Add code"
+git push -f heroku master
+```
