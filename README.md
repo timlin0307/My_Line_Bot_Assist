@@ -22,7 +22,7 @@ Develop my own assistant via Line Bot. Update irregularly.
 ## PUSH Bot Programme to Heroku
 - Open cmd on your computer
 - Login to your Heroku account
-'''cmd
+```cmd
 heroku login
-'''
+```
 - 
