@@ -18,7 +18,9 @@ Develop my own assistant via Line Bot. Update irregularly.
 - Download and install [The Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) (it has instructions)
 - Login to [Heroku](https://www.heroku.com)
 - Go to "New" -> "Create New App"
-- Name the app -> "Create App"
-- Open cmd into your computer
+- Name the app -> "Create App" 
+## PUSH Bot Programme to Heroku
+- Open cmd on your computer
+- Login to your Heroku account
+'heroku login'
 - 
-## 
