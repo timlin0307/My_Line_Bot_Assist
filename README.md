@@ -9,13 +9,11 @@ Develop my own assistant via Line Bot. Update irregularly.
 - Login to [LINE Developers Messaging API](https://developers.line.biz/en/services/messaging-api/)
 - "Create New Provider" -> Give provider name -> "Comfirm" -> "Create"
 - "Create Channel" -> Fill in the information of your bot -> "Comfirm" -> Agree Terms -> "Create"
-- Refer to [1]
 ## Set Up Your Bot
 - Go to LINE Developers -> Choose the Bot you'd created
-- Check "webhook" -> "Edit", "Enable", "Update"
+- Check "Use webhook" -> "Edit" -> "Enable" -> "Update"
 - "Disable" auto-reply and greeting messages (it depends on you)
 - "Issue" a Channel Access Token and a Channel Secret, keep them
-- Refer to [1]
 ## Install And Set Up Heroku
 - Download and install [The Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) (it has instructions)
 - Login to [Heroku](https://www.heroku.com)
@@ -24,6 +22,3 @@ Develop my own assistant via Line Bot. Update irregularly.
 - Open cmd into your computer
 - 
 ## 
-## References
-- [1] [LineBot+Python，輕鬆建立聊天機器人](https://blackmaple.me/line-bot-tutorial/)
-- [2] [Heroku安裝使用教學](https://ericjhang.github.io/archives/689940fd.html)
