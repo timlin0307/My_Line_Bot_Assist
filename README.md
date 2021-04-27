@@ -47,5 +47,5 @@ git push -f heroku master
 ```cmd
 {HEROKU_APP_NAME}.herokuapp.com/callback
 ```
-## Basic Programme
-- Check ++basic_LineBot.py++
+## Basic Code
+- Check basic_LineBot.py above
