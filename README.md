@@ -2,6 +2,8 @@
 ## Introduction
 Develop my own assistant via Line Bot. Update irregularly.
 ## Requirements
-1. [An LINE account](https://line.me/en/)
-2. [An Heroku account](https://www.heroku.com)
-3. [Python 3](https://www.python.org/)
+- [An LINE account](https://line.me/en/)
+- [An Heroku account](https://www.heroku.com)
+- [Python 3](https://www.python.org/)
+## Create LINE Bot Channel
+- We need to create a channel by [LINE Developers Messaging API](https://developers.line.biz/en/services/messaging-api/).
