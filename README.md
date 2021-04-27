@@ -5,7 +5,7 @@
 * [Create LINE Bot Channel](#create-line-bot-channel)
 * [Set Up Your Bot](#set-up-your-bot)
 * [Install And Set Up Heroku](#install-and-set-up-heroku)
-* [PUSH Bot Programme to Heroku](#push-bot programme-to-heroku)
+* [PUSH Bot Programme to Heroku](#push-bot-programme-to-heroku)
 * [Combine Heroku to LINE Bot](#combine-heroku-to-line-bot)
 * [Basic Code](#basic-code)
 ## Introduction
