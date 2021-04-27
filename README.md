@@ -27,13 +27,13 @@ heroku login
 ```
 - Initialize git
 ```cmd
-git config --global user.name "NAME"
-git config --global user.email E-MAIL
+git config --global user.name {"NAME"}
+git config --global user.email {E-MAIL}
 git init
 ```
 - Connect your folder to Heroku
 ```cmd
-heroku git:remote -a HEROKU_APP_NAME
+heroku git:remote -a {HEROKU_APP_NAME}
 ```
 - PUSH your programme (every PUSH need to do this)
 ```cmd
@@ -41,3 +41,10 @@ git add .
 git commit -m "Add code"
 git push -f heroku master
 ```
+## Combine Heroku to LINE Bot
+- Go to LINE Developers -> Choose the Bot you'd created
+- Go to "Webhook URL" -> Input the URL below
+```cmd
+{HEROKU_APP_NAME}.herokuapp.com/callback
+```
+## Make your programme
