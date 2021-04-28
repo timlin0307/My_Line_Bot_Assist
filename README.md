@@ -10,7 +10,7 @@
 * [Basic Code](#basic-code)
 ## Introduction
 Develop my own assistant via Line Bot. Update irregularly.
-## Requirements
+## Neccesities
 - [An LINE account](https://line.me/en/)
 - [An Heroku account](https://www.heroku.com)
 - [Python 3](https://www.python.org/)
@@ -58,3 +58,4 @@ git push -f heroku master
 ```
 ## Basic Code
 - Check basic_LineBot.py above
+- Check requirements.txt for Heroku app, it has libraries needed for the code. If you want to import more libraries into your Bot, you can add them manually.
