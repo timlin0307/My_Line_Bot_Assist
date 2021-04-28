@@ -58,4 +58,5 @@ git push -f heroku master
 ```
 ## Basic Code
 - Check basic_LineBot.py above
-- Check requirements.txt for Heroku app, it has libraries needed for the code. If you want to import more libraries into your Bot, you can add them manually.
+- Check requirements.txt above for Heroku app, it has libraries needed for the code. If you want to import more libraries into your Bot, you can add them manually.
+- Check runtime.txt above, it's the python edition used for your Bot code.
